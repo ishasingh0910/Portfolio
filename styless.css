@@ -439,15 +439,15 @@ footer{
 }
 
 
-/*@media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
     body {
         padding: 1rem;
         margin: 0;
         margin-top: 6rem; /* keep header spacing */
         background-size: cover;
     }
-}*/
-/*@media screen and (max-width: 768px) {
+}
+@media screen and (max-width: 768px) {
     .header-container {
         flex-direction: column;
         gap: 1rem;
@@ -606,9 +606,9 @@ footer{
         font-size: 1.4rem;
         text-align: center;
     }
-}*/
+}
 
-@media screen and (max-width: 768px) {
+/*@media screen and (max-width: 768px) {
     body {
         padding: 1rem;
         margin: 0;
@@ -802,4 +802,5 @@ footer{
         font-size: 1rem;
         text-align: center;
     }
-}
+}*/
+
