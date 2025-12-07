@@ -439,15 +439,15 @@ footer{
 }
 
 
-@media screen and (max-width: 768px) {
+/*@media screen and (max-width: 768px) {
     body {
         padding: 1rem;
         margin: 0;
         margin-top: 6rem; /* keep header spacing */
         background-size: cover;
     }
-}
-@media screen and (max-width: 768px) {
+}*/
+/*@media screen and (max-width: 768px) {
     .header-container {
         flex-direction: column;
         gap: 1rem;
@@ -604,6 +604,202 @@ footer{
 @media screen and (max-width: 768px) {
     footer {
         font-size: 1.4rem;
+        text-align: center;
+    }
+}*/
+
+@media screen and (max-width: 768px) {
+    body {
+        padding: 1rem;
+        margin: 0;
+        margin-top: 6rem; /* keep header spacing */
+        background-size: cover;
+    }
+}
+@media screen and (max-width: 768px) {
+    .header-container {
+        flex-direction: column;
+        gap: 1rem;
+        text-align: center;
+    }
+    .nav-class {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 1rem;
+    }
+
+    .nav-link {
+        font-size: 1rem;
+        margin: 0;
+    }
+
+    .logo-img {
+        height: 6rem;
+        width: 6rem;
+    }
+
+    .name {
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .hero-container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+        margin-top: 5rem;
+    }
+
+    .hero-left img {
+        height: 18rem;
+        width: 18rem;
+        margin-bottom: 2rem;
+    }
+
+    .hero-right {
+        width: 100%;
+        margin-left: 0;
+        align-items: center;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    h3 {
+        font-size: 1rem;
+    }
+
+    .para {
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    .button-group .button {
+        font-size: 1.4rem;
+        padding: 0.8rem 1.4rem;
+        margin: 3rem;
+    }
+
+    .socials {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .social-link {
+        height: 40px;
+        width: 40px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .about-container{
+        margin-top: 5rem;
+    }
+    .heading{
+        font-size: 1.5rem;
+    }
+    .about-content {
+        flex-direction: column;
+        width: 80%;
+        gap: 2rem;
+        margin-left: 3rem;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .about-1, .about-2 {
+        width: 90%;
+        padding: 2rem;
+    }
+
+    .text-about {
+        font-size: 1.5rem;
+    }
+    .about-para{
+        font-size: 1rem;
+    }
+}
+@media screen and (max-width: 768px) {
+    .skills-container{
+        margin-top: 5rem;
+    }
+    .sk-head{
+        font-size: 2rem;
+    }
+    .skills {
+        margin-right: 0;
+        text-align: center;
+        font-size: 1rem;
+    }
+
+    .top-skills,
+    .average-skills,
+    .low-skills {
+        flex-direction: column;
+        gap: 1rem;
+        margin: 1rem 0;
+    }
+}
+@media screen and (max-width: 768px) {
+    .projects-container{
+        margin-top: 5rem;
+    }
+    .pr-heading{
+        font-size: 2rem;
+    }
+    .pr-content {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .title {
+        font-size: 1.5rem;
+    }
+
+    .pr-para {
+        font-size: 1rem;
+    }
+
+    .pr1, .pr2, .pr3 {
+        margin-right: 0;
+        padding: 2rem;
+    }
+}
+@media screen and (max-width: 768px) {
+    .education-container{
+        margin-top: 5rem;
+    }
+    .edu-head{
+        font-size: 2rem;
+    }
+    .courses {
+        flex-direction: column;
+        gap: 2rem;
+        align-items: center;
+    }
+
+    .course1, .course2 {
+        font-size: 1rem;
+    }
+}
+@media screen and (max-width: 768px) {
+    .achievement-head{
+        font-size: 2rem;
+    }
+    .ach-img {
+        width: 90%;
+        height: auto;
+        margin: 2rem auto;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    footer {
+        font-size: 1rem;
         text-align: center;
     }
 }
